@@ -7,7 +7,7 @@ def drawBoard(board):
     print('-+-+-')
     print(board[1] + '|' + board[2] + '|' + board[3])
 
-def InputPlayerLetter():
+def inputPlayerLetter():
     letter = ''
     while not (letter == 'X' or letter == 'O'):
         #player chooses letter first
@@ -21,3 +21,10 @@ def InputPlayerLetter():
                             # playerLetter, computerLetter = inputPlayerLetter()
     else:
         return ['O', 'X']
+
+def whoGoesFirst():
+    if random.randint(0, 1) == 0
+        return 'Player'
+    else:
+        return 'Computer'
+
