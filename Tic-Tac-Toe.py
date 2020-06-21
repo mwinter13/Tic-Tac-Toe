@@ -28,3 +28,8 @@ def whoGoesFirst():
     else:
         return 'Computer'
 
+def makeMove(board, letter, move):
+    board[move] = letter    #this changes the board list at [index] to the letter passed
+
+
+
